@@ -12,7 +12,7 @@ import java.util.List;
 
 //in linear layout -->center gravity , margin(to gel lower) and padding
 //values stored in spinner can be saved by "srtings.xml" file
-//android:entries="@array/books" and
+//android:entries="@array/books" and-->this im main.xml
 //<string-array name="books">
 //<item>Programming books</item>
 //<item>Testing </item>
@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
             str=spnSearch.getSelectedItem().toString();//takes from user to exchange to string :
           //  txtResult.setText(str);//then show it
 //now connect the database with main so removing the previous line
-DataBase db=new DataBase();
-List<Book> result=db.getBooks(str);
-String r="";
+        DataBase db=new DataBase();
+    List<Book> result=db.getBooks(str);
+    String r="";
             for ( Book b :result) {
                 r+=b.getTitle()+"\n";
 

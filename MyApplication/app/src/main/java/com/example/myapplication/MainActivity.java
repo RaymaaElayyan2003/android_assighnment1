@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnClick;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {//oncreate is the lifecycle if for the first time the activity then call it , and if the activity turned off and removed from the momory and we re called it then OnCreate;بنحط فيها الكود التجهيزي
+    protected void onCreate(Bundle savedInstanceState) {//Oncreate is the lifecycle if for the first time the activity then call it , and if the activity turned off and removed from the memory and we re called it then OnCreate;بنحط فيها الكود التجهيزي
       //oncreate if destruction then again build
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);// XML where? here indicating to part 2..    --activity_main-- is the answer

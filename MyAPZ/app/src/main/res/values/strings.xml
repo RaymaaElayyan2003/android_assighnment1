@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyAPZ</string>
+    <string name="appWlc">MyWelcome</string>
+    <string name="Mainning">MainActivity</string>
+</resources>

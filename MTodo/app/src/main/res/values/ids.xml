@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editText2" type="id">editText2</item>
+    <item name="titleTextView" type="id">titletxtview</item>
+    <item name="descriptionTextView" type="id">desctitleview</item>
+    <item name="doneCheckBox" type="id">donecheckbox</item>
+</resources>

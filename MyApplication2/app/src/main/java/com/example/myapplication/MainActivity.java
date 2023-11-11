@@ -13,7 +13,7 @@ import android.widget.TextView;
 //LayputCompat should do it vertical
 // we find the extraction of design within the styles.xml in order to exchange it at once not via different places and classes
 //2 types we can do -->a normal style , and dark mode (then all attributes and designs/styles will be differed )
-//match parent takes all scree, wrap takes based on the content
+//match parent takes all screen, wrap takes based on the content
 //view should have prefix->to get easier searched about within the intelliscence
 //gone means not visible and isnt taking even a place in the memory-> gone with animated entery
 //invisible its not showed but its place is reserved
