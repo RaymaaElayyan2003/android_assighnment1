@@ -35,10 +35,9 @@
             android:layout_width="290dp"
             android:layout_height="71dp"
             android:layout_marginTop="33dp"
-            android:background="#CD6C6C"
-            android:backgroundTint="#EAB953"
-            android:text="click to go to our App! "
-            android:textColor="#FFFFFF" />
+            android:background="#9C27B0"
+            android:backgroundTint="#C953EA"
+            android:text="click to go to our App! "   />
 
         <ImageView
             android:id="@+id/imageView"
